@@ -19,6 +19,7 @@ li {
     padding: 10px;
 }
 .material-icons {
+    display: flex;
     padding: 7px;
 }
 #header {
@@ -60,8 +61,36 @@ li {
     margin-right: auto;
     width: 30%;
 }
-#searchbar {
-    display: block;
+#entire-search-bar {
+    display: flex;
+    flex-flow: row nowrap;
+}
+#search-bar {
+    display: flex;
     
     
+}
+#voice-button {
+    display: flex;
+}
+#footer {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-end;
+    
+    
+}
+#footer-left {
+    display: flex;
+    flex: 25%;
+    justify-content: flex-start;
+
+    
+}
+#footer-right {
+    display: flex;
+    flex: 25%;
+    justify-content: flex-end;
+
+
 }
