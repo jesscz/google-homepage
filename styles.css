@@ -2,17 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
-a:link, a:visited {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    color: black;
-}
-a:hover {
-    text-decoration: underline;
 
-}
 li {
     list-style-type: none;
     text-decoration: none;
@@ -21,6 +11,28 @@ li {
 .material-icons {
     display: flex;
     padding: 7px;
+}
+.h:link, .h:visited {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+.h:hover {
+    text-decoration: underline;
+
+}
+.f:link, .f:visited {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #70757a;
+}
+.f:hover {
+    text-decoration: underline;
+
 }
 #header {
     display: flex;
@@ -108,22 +120,20 @@ li {
 
 #footer {
     display: flex;
-    flex-flow: row nowrap;
     bottom: 0%;
     position: fixed;
-    
+    width: 100%;
+    background-color: #f2f2f2;
+    justify-content: space-between;
     
 }
 #footer-left {
     display: flex;
     justify-content: flex-start;
-    flex: 50%;
     
 }
 #footer-right {
     display: flex;
-    flex: 10%;
-    align-items: flex-end;
 
 
 }
