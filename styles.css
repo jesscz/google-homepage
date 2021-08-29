@@ -67,30 +67,32 @@ li {
 }
 #search-bar {
     display: flex;
-    
+    justify-content: center;
     
 }
 #voice-button {
     display: flex;
+    align-items: flex-end;
 }
+
 #footer {
     display: flex;
     flex-flow: row nowrap;
-    align-items: flex-end;
+    bottom: 0%;
+    position: fixed;
     
     
 }
 #footer-left {
     display: flex;
-    flex: 25%;
     justify-content: flex-start;
-
+    flex: 50%;
     
 }
 #footer-right {
     display: flex;
-    flex: 25%;
-    justify-content: flex-end;
+    flex: 10%;
+    align-items: flex-end;
 
 
 }
