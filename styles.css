@@ -125,7 +125,9 @@ li {
     width: 100%;
     background-color: #f2f2f2;
     justify-content: space-between;
-    
+    margin-left: -8px;
+    padding: 10px;
+    border: 1px solid #e0e1e4;
 }
 #footer-left {
     display: flex;
@@ -134,6 +136,5 @@ li {
 }
 #footer-right {
     display: flex;
-
-
+    margin: 0px 50px;
 }
