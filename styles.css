@@ -74,6 +74,37 @@ li {
     display: flex;
     align-items: flex-end;
 }
+ #sb-buttons {
+     display: flex;
+     justify-content: center;
+ }
+
+#search-button {
+    background-color: #f8f9fa;
+    border: none;
+    color: black;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin: 2px;
+}
+#search-button:hover {
+    border: 1px solid #e2e4e7;
+    box-shadow: 0px 3px 3px -4px rgba(0,0,0,0.8);
+}
+#lucky-button {
+    background-color: #f8f9fa;
+    border: none;
+    color: black;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 4px;
+    margin: 2px;
+}
+#lucky-button:hover {
+    border: 1px solid #e2e4e7;
+    box-shadow: 0px 3px 3px -4px rgba(0,0,0,0.8);
+}
 
 #footer {
     display: flex;
