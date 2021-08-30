@@ -72,10 +72,17 @@ li {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    padding: 50px;
 }
 #entire-search-bar {
     display: flex;
     flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+}
+#search-picture {
+    display: flex;
+    
 }
 #search-bar {
     display: flex;
@@ -84,37 +91,42 @@ li {
 }
 #voice-button {
     display: flex;
-    align-items: flex-end;
+    justify-content: flex-end;
 }
  #sb-buttons {
      display: flex;
      justify-content: center;
+     margin: 40px;
  }
 
 #search-button {
     background-color: #f8f9fa;
     border: none;
-    color: black;
+    color: #3c4043;
     font-size: 14px;
     padding: 10px 25px;
     border-radius: 4px;
-    margin: 2px;
+    margin: 5px;
+    
 }
 #search-button:hover {
     border: 1px solid #e2e4e7;
+    color: #202124;
     box-shadow: 0px 3px 3px -4px rgba(0,0,0,0.8);
 }
 #lucky-button {
     background-color: #f8f9fa;
     border: none;
-    color: black;
+    color: #3c4043;
     font-size: 14px;
     padding: 10px 25px;
     border-radius: 4px;
-    margin: 2px;
+    margin: 5px;
+
 }
 #lucky-button:hover {
     border: 1px solid #e2e4e7;
+    color: #202124;
     box-shadow: 0px 3px 3px -4px rgba(0,0,0,0.8);
 }
 
@@ -127,14 +139,14 @@ li {
     justify-content: space-between;
     margin-left: -8px;
     padding: 10px;
-    border: 1px solid #e0e1e4;
+    border-top: 1px solid #e0e1e4;
 }
 #footer-left {
     display: flex;
     justify-content: flex-start;
-    
+    margin: 0px 15px;
 }
 #footer-right {
     display: flex;
-    margin: 0px 50px;
+    margin: 0px 38px;
 }
