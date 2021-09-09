@@ -14,6 +14,12 @@ input {
 input:focus{
     outline: none;
 }
+span:hover {
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    size: 24px 24px;
+}
+
 .material-icons {
     display: flex;
     padding: 7px;
@@ -56,8 +62,9 @@ input:focus{
     display: flex;
     flex: 25%;
     justify-content: flex-end;
-
-
+}
+#ga {
+    background-size: 24px 24px;
 }
 #si-button {
     background-color: #1a73e8;
@@ -90,11 +97,11 @@ input:focus{
     border: 1px solid #dadce0;
     border-radius: 80px;
     color: #202124;
-    box-shadow: 0px 3px 3px -4px rgba(0,0,0,0.8);
+    
     
 }
 #entire-search-bar:hover {
-    box-shadow: 0px 1px 5px 0px rgba(24, 17, 17, 0.33);
+    box-shadow: 0px 1px 4px 1px rgba(223, 223, 223, 0.8);
 }
 #search-picture {
     display: flex;
@@ -124,8 +131,8 @@ input:focus{
     border: none;
     color: #3c4043;
     font-size: 14px;
-    padding: 9px 17px;
-    border-radius: 4px;
+    padding: 10px 17px;
+    border-radius: 6px;
     margin: 5px;
     
 }
@@ -139,8 +146,8 @@ input:focus{
     border: none;
     color: #3c4043;
     font-size: 14px;
-    padding: 9px 17px;
-    border-radius: 4px;
+    padding: 10px 17px;
+    border-radius: 6px;
     margin: 5px;
 
 }
